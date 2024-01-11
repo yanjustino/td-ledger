@@ -1,6 +1,5 @@
 > [!important]\
 > MSc. Yan Justino  
-> [AWS](https://www.youracclaim.com/users/yan-justino/badges) · [OCA](https://www.youracclaim.com/users/yan-justino/badges) · [ORCID](https://orcid.org/0000-0001-7248-716X)  · [Tech Lead at ITAÚ Unibanco]()  
 > Versão.: [1.0.0-beta]()  
 > Data.: [03/2023]()  
 
@@ -24,19 +23,19 @@ TDL proporciona uma abordagem abrangente para lidar com a Dívida Técnica, prom
 ```mermaid
 stateDiagram-v2
     direction LR
-    [*] --> SATD
+
     SATD --> TDM
     TDM --> SATD
 
     state SATD {
-        [*] --> Reconhecer
+        direction LR
         Reconhecer --> Registrar
     }
 
     state TDM {
-        [*] --> Classificar
-        Classificar --> Priorizar : EvCapsLockPressed
-        Priorizar --> Pagar : EvCapsLockPressed
+        direction LR
+        Classificar --> Priorizar
+        Priorizar --> Pagar
     }
 ```
 
