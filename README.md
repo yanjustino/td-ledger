@@ -22,15 +22,22 @@ O TDL é um framework dedicado ao gerenciamento eficaz de Dívida Técnica no de
 TDL proporciona uma abordagem abrangente para lidar com a Dívida Técnica, promovendo a transparência, a responsabilidade e a qualidade contínua do software desenvolvido. é abordada por meio de seis funcionalidades-chave:
 
 ```mermaid
-stateDiagram
+stateDiagram-v2
     direction LR
-    [*] --> Reconhecer
-    Reconhecer --> Registrar
-    Registrar --> Classificar
-    Classificar --> Priorizar
-    Priorizar --> Qualificar
-    Qualificar --> Pagar
-    Pagar --> [*]
+    [*] --> SATD
+    SATD --> TDM
+    TDM --> SATD
+
+    state SATD {
+        [*] --> Reconhecer
+        Reconhecer --> Registrar
+    }
+
+    state TDM {
+        [*] --> Classificar
+        Classificar --> Priorizar : EvCapsLockPressed
+        Priorizar --> Pagar : EvCapsLockPressed
+    }
 ```
 
 ### 1. Reconhecer a Dívida
