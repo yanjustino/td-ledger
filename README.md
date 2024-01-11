@@ -1,10 +1,37 @@
-# TDL (Technical Debt Ledger) Framework Documentation
+> [!important]\
+> MSc. Yan Justino  
+> [AWS](https://www.youracclaim.com/users/yan-justino/badges) · [OCA](https://www.youracclaim.com/users/yan-justino/badges) · [ORCID](https://orcid.org/0000-0001-7248-716X)  · [Tech Lead at ITAÚ Unibanco]()  
+> Versão.: [1.0.0-beta]()  
+> Data.: [03/2023]()  
 
-## O que é Dívida Técnica?
-
+# Technical Debt Ledger Framework (TDL)
 A Dívida Técnica refere-se aos compromissos técnicos assumidos durante o desenvolvimento de software, quando uma solução rápida é escolhida em detrimento de uma abordagem mais sólida. Assim como uma dívida financeira, a Dívida Técnica precisa ser reconhecida e gerenciada para garantir a sustentabilidade e qualidade contínua do software.
+O TDL é um framework dedicado ao gerenciamento eficaz de Dívida Técnica no desenvolvimento de software. Essa dívida, resultante de decisões rápidas em detrimento de soluções mais robustas. TDL se apoia em dois pilares principais:   
+
+- ### ✅ Self-Admitted Technical Debt (SATD)
+  - A equipe reconhece proativamente a existência de Dívida Técnica durante o desenvolvimento e a documenta para futuras ações corretivas.
+
+- ### ✅ Technical Debt Management (TDM)
+  - Uso de abordagem estruturada para gerenciar, monitorar e reduzir a Dívida Técnica ao longo do ciclo de vida do projeto.
+
+> [!NOTE]\
+> A Dívida Técnica refere-se aos compromissos técnicos assumidos durante o desenvolvimento de software, quando uma solução rápida é escolhida em detrimento de uma abordagem mais sólida. Assim como uma dívida financeira, a Dívida Técnica precisa ser reconhecida e gerenciada para garantir a sustentabilidade e qualidade contínua do software.
+
 
 ## Funcionalidades do Framework
+TDL proporciona uma abordagem abrangente para lidar com a Dívida Técnica, promovendo a transparência, a responsabilidade e a qualidade contínua do software desenvolvido. é abordada por meio de seis funcionalidades-chave:
+
+```mermaid
+stateDiagram
+    direction LR
+    [*] --> Reconhecer
+    Reconhecer --> Registrar
+    Registrar --> Classificar
+    Classificar --> Priorizar
+    Priorizar --> Qualificar
+    Qualificar --> Pagar
+    Pagar --> [*]
+```
 
 ### 1. Reconhecer a Dívida
 
@@ -30,14 +57,4 @@ Fornece ferramentas para avaliar a natureza da Dívida Técnica, permitindo uma 
 
 Facilita a criação de estratégias e planos para abordar e corrigir a Dívida Técnica, promovendo a saúde a longo prazo do software.
 
-## Pilares do Framework
 
-### - Self-Admitted Technical Debt (SATD)
-
-Aborda casos em que a equipe reconhece proativamente a existência de Dívida Técnica durante o desenvolvimento e a documenta para futuras ações corretivas.
-
-### - Technical Debt Management (TDM)
-
-Oferece uma abordagem estruturada para gerenciar, monitorar e reduzir a Dívida Técnica ao longo do ciclo de vida do projeto.
-
-Este framework proporciona uma abordagem abrangente para lidar com a Dívida Técnica, promovendo a transparência, a responsabilidade e a qualidade contínua do software desenvolvido.
