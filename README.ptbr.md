@@ -73,3 +73,8 @@ Nessa etapa procura-se facilitar a criação de estratégias e planos para abord
 
 ## Modelo de implementação de TDL
 `EM BREVE`
+
+## Referências
+- [**Self-Admitted Technical Debt - SATD**](https://ieeexplore.ieee.org/search/searchresult.jsp?matchBoolean=true&queryText=%22Index%20Terms%22:Self-Admitted%20Technical%20Debt&newsearch=true)
+  - SATD is when developers are aware that the current implementation is not optimal and leave comments in the source code or elsewhere to describe the presence of technical debt.
+- 
