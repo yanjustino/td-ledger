@@ -31,9 +31,9 @@ A seguir detalharemos os aspectos de cata funcionalidade do framework TDL.
 **Identificação proativa de áreas que requerem atenção técnica**\
 Nessa etapa a equipe é estimulada a reconhecer proativamente a presença de dívida técnica em seu código, identificando áreas que podem exigir atenção adicional.
 Para isso, podem ser adotadas as seguintes práticas: 
-- [(a) Revisão de código](),
-- [(b) Técnicas de análise arquitetural](),
-- [(c) Ferramentas de análise estática de código]()
+- [Revisão de código](https://en.wikipedia.org/wiki/Code_review),
+- [Técnicas de análise arquitetural](https://www.sciencedirect.com/topics/computer-science/architecture-analysis),
+- [Ferramentas de análise estática](https://en.wikipedia.org/wiki/Static_program_analysis)
 
 ### 2. Registrar
 **Documentação para um gerenciamento eficaz**\
