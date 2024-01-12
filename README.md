@@ -3,9 +3,7 @@
 > `version.:` [1.0.0-beta]() . [03/2023]()  
 > `language:` [pt-br](README.ptbr.md) . en-us
 
-Technical Debt (TD) refers to the technical commitments made during software development when a quick solution is chosen over a more robust approach. Similar to financial debt, Technical Debt needs to be recognized and managed to ensure the sustainability and continuous quality of the software.
-
-TDL is a framework dedicated to the effective management of Technical Debt in software development, arising from quick decisions at the expense of more robust solutions. TDL relies on two main pillars:
+Technical Debt (TD) refers to the technical commitments made during software development when a quick solution is chosen over a more robust approach. Similar to financial debt, Technical Debt needs to be recognized and managed to ensure the sustainability and continuous quality of the software. In this context, TDL is a framework dedicated to the effective management of TD in software development, relying on two main pillars:
 
 #### Self-Admitted Technical Debt (SATD)
 > [!important]\
