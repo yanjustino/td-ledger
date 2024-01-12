@@ -23,7 +23,7 @@ A **Dívida Técnica (DT)** refere-se aos compromissos técnicos assumidos duran
   <small>Fonte própria</small>
 </p>
 
-Na seção a seguir, serão detalhados as características de cada uma dessas funcionalidade do **TDL**, bem como possíveis atividades que podem ser a elas relacionadas.
+Na seção a seguir, serão detalhados as características de cada uma dessas funcionalidades do **TDL**, bem como possíveis atividades a elas relacionadas.
 
 ## Funcionalidades do Framework
 
