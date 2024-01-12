@@ -28,7 +28,8 @@ TDL provides a comprehensive approach to addressing TD, promoting transparency, 
 The following details each functionality of the TDL framework.
 
 ### 1. Recognize
-**Proactive identification of areas requiring technical attention**\
+>Proactive identification of areas requiring technical attention
+
 In this step, the team is encouraged to proactively recognize the presence of Technical Debt in their code by identifying areas that may require additional attention. Practices may include:
 
 - [Code review](https://en.wikipedia.org/wiki/Code_review),
@@ -36,33 +37,38 @@ In this step, the team is encouraged to proactively recognize the presence of Te
 - [Static analysis tools](https://en.wikipedia.org/wiki/Static_program_analysis)
 
 ### 2. Record
-**Documentation for effective management**\
+>Documentation for effective management
+
 In this step, all instances of Technical Debt should be documented for effective management. Any tool that proves most productive for the team to record TDs can be adopted. The use of collaborative tools that facilitate engagement is advised.
 
 > [!Warning]\
 > It is crucial to register TD as soon as possible after its identification. Delaying this registration may lead to underreporting.
 
 ### 3. Classify
-**Categorization based on specific criteria**\
+>Categorization based on specific criteria
+
 Allows the categorization of Technical Debt based on specific criteria, facilitating an understanding of areas with higher impact and urgency. Models of classification, such as:
 
 - [Technical Debt Quadrant - Martin Fowler](https://martinfowler.com/bliki/TechnicalDebtQuadrant.html) (categorizes the team's debt behavior)
 - [Product quality model - ISO/IEC 25010:2011](https://www.iso.org/obp/ui/#iso:std:iso-iec:25010:ed-1:v1:en) (categorizes product quality properties)
 
-> [!Note]\
+> [!important]\
 > Classification models can be combined to obtain different perspectives on a TD. For example, the
 
 ### 4. Prioritize
-**Establishment of priorities**\
+>Establishment of priorities
+
 This step aids in prioritizing identified debts, considering factors such as project impact, urgency, and complexity. Approaches may include:
 
 - [GUT Matrix (Gravity, Urgency, and Tendency)](https://scopi.com.br/blog/matriz-gut) (prioritizes demands)
 - [T-Shirt sizing](https://asana.com/pt/resources/t-shirt-sizing) (project estimates)
 
 ### 5. Pay
-**Development of strategies to address and rectify Technical Debt**\
+>Development of strategies to address and rectify Technical Debt
+
 In this step, the framework aims to facilitate the creation of strategies and plans to address and rectify Technical Debt, promoting the long-term health of the software. One of the strategies recommended by [Steve McConnell](https://www.construx.com/uploadedfiles/resources/whitepapers/Managing%20Technical%20Debt.pdf) in his book _Managing Technical Debt_ is:
 
+> [!note]\
 > Keep the debt list as part of a Scrum product backlog. Each debt is treated as a "story," and the estimated effort and schedule to pay each debt are estimated in the same way as other stories are estimated in Scrum.
 
 ## TDL Implementation Model
