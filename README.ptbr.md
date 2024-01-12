@@ -20,7 +20,8 @@ TDL proporciona uma abordagem abrangente para lidar com a DT, promovendo a trans
   <br/>
   <img width="600" alt="image" src="https://github.com/yanjustino/td-ledger/assets/357114/e5bd7ace-9580-49c2-acbb-c58c558e1c4a">
   <br/>
-  <small>Fig. 1 - visão geral dos pilares e funcionalidades do framework</small>
+  <small>Fig. 1 - visão geral dos pilares e funcionalidades do framework</small><br/>
+  <small>Fonte própria</small>
 </p>
 
 A seguir detalharemos os aspectos de cata funcionalidade do framework TDL.
