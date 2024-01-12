@@ -58,8 +58,8 @@ Allows the categorization of Technical Debt based on specific criteria, facilita
 
 This step aids in prioritizing identified debts, considering factors such as project impact, urgency, and complexity. Approaches may include:
 
-- [GUT Matrix (Gravity, Urgency, and Tendency)](https://scopi.com.br/blog/matriz-gut) (prioritizes demands)
-- [T-Shirt sizing](https://asana.com/pt/resources/t-shirt-sizing) (project estimates)
+- [GUT Matrix (Gravity, Urgency, and Tendency)](https://www.sydle.com/blog/gut-priority-matrix-62d05b64675a2377260936ae) (prioritizes demands)
+- [T-Shirt sizing](https://asana.com/resources/t-shirt-sizing) (project estimates)
 
 ### 5. Pay
 >Development of strategies to address and rectify Technical Debt
@@ -71,3 +71,15 @@ In this step, the framework aims to facilitate the creation of strategies and pl
 
 ## TDL Implementation Model
 `COMING SOON`
+
+## References
+- [**Self-Admitted Technical Debt - SATD**](https://ieeexplore.ieee.org/search/searchresult.jsp?matchBoolean=true&queryText=%22Index%20Terms%22:Self-Admitted%20Technical%20Debt&newsearch=true)
+  >SATD is when developers are aware that the current implementation is not optimal and leave comments in the source code or elsewhere to describe the presence of technical debt.
+- [**Technical Debt Quadrant - Martin Fowler**](https://martinfowler.com/bliki/TechnicalDebtQuadrant.html)
+  >Approach to dividing debt into prudent/prudent and deliberate/inadvertent that implies a quadrant.
+- [**Product quality model - ISO/IEC 25010:2011**](https://www.iso.org/obp/ui/#iso:std:iso-iec:25010:ed-1:v1:en)
+  >The product quality model categorizes product quality properties into eight characteristics (functional suitability, reliability, performance efficiency, usability, security, compatibility, maintainability and portability).
+- [**GUT Matrix (Gravity, Urgency, and Tendency)**](https://www.sydle.com/blog/gut-priority-matrix-62d05b64675a2377260936ae)
+  > The GUT priority matrix is a system for ranking the importance of issues and tasks to streamline company operations.
+- [**T-Shirt sizing**](https://asana.com/resources/t-shirt-sizing) (estimativas de projetos)
+  >T-shirt sizing is a project estimation and capacity planning tool that helps you track how much time or effort an initiative will take. 
