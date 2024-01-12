@@ -3,18 +3,17 @@
 > `versão...:` [1.0.0-beta]() - [03/2023]()  
 > `línguas..:` pt-br . [en-us](README.md)
 
-A **Dívida Técnica** (DT) refere-se aos compromissos técnicos assumidos durante o desenvolvimento de software, quando uma solução rápida é escolhida em detrimento de uma abordagem mais sólida. Assim como uma dívida financeira, a **Dívida Técnica** precisa ser reconhecida e gerenciada para garantir a sustentabilidade e qualidade contínua do software. Nesse contexto, o TDL é um framework dedicado ao gerenciamento eficaz de DT no desenvolvimento de software, que se apoia em dois pilares principais:   
+A **Dívida Técnica (DT)** refere-se aos compromissos técnicos assumidos durante o desenvolvimento de software, quando uma solução rápida é escolhida em detrimento de uma abordagem mais sólida. Assim como uma dívida financeira, a **DT** precisa ser reconhecida e gerenciada para garantir a sustentabilidade e qualidade contínua do software. Nesse contexto, o **TDL** é um _framework_ dedicado ao gerenciamento eficaz de **DT** no desenvolvimento de software, que se apoia em dois pilares principais:   
 
 #### Self-Admitted Technical Debt (SATD)
 > [!important]\
-> Reconhecer proativamente a existência de DT durante o desenvolvimento e a documentar para futuras ações corretivas.
+> Reconhecer proativamente a existência de **DT** durante o desenvolvimento e a documentar para futuras ações corretivas.
 
 #### Technical Debt Management (TDM)
 > [!important]\
-> Utilizar uma abordagem estruturada para gerenciar, monitorar e reduzir a DT ao longo do ciclo de vida do projeto.
+> Utilizar uma abordagem estruturada para gerenciar, monitorar e reduzir a **DT** ao longo do ciclo de vida do projeto.
 
-## Funcionalidades do Framework
-TDL proporciona uma abordagem abrangente para lidar com a DT, promovendo a transparência, a responsabilidade e a qualidade contínua do software desenvolvido. é abordada por meio de seis funcionalidades-chave, como ilustra a `Fig. 1`.
+**TDL** proporciona uma abordagem abrangente que promove a transparência, a responsabilidade e a qualidade contínua do software desenvolvido. Isso se dá por meio de seis funcionalidades-chave, como ilustra a `Fig. 1`.
 
 <p align="center">
   <br/>
@@ -24,7 +23,9 @@ TDL proporciona uma abordagem abrangente para lidar com a DT, promovendo a trans
   <small>Fonte própria</small>
 </p>
 
-A seguir detalharemos os aspectos de cata funcionalidade do framework TDL.
+A seguir detalharemos os aspectos de cada uma dessas funcionalidade do framework **TDL**.
+
+## Funcionalidades do Framework
 
 ### 1. Reconhecer
 > Identificação proativa de áreas que requerem atenção técnica
