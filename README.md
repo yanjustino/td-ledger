@@ -11,10 +11,10 @@ A Dívida Técnica (DT) refere-se aos compromissos técnicos assumidos durante o
 O TDL é um framework dedicado ao gerenciamento eficaz de Dívida Técnica no desenvolvimento de software. Essa dívida, resultante de decisões rápidas em detrimento de soluções mais robustas. TDL se apoia em dois pilares principais:   
 
 - #### Self-Admitted Technical Debt (SATD)
-  - Reconhecer proativamente a existência de DT durante o desenvolvimento e a documentar para futuras ações corretivas.
+> Reconhecer proativamente a existência de DT durante o desenvolvimento e a documentar para futuras ações corretivas.
 
 - #### Technical Debt Management (TDM)
-  - Utilizar uma abordagem estruturada para gerenciar, monitorar e reduzir a DT ao longo do ciclo de vida do projeto.
+> Utilizar uma abordagem estruturada para gerenciar, monitorar e reduzir a DT ao longo do ciclo de vida do projeto.
 
 ## Funcionalidades do Framework
 TDL proporciona uma abordagem abrangente para lidar com a DT, promovendo a transparência, a responsabilidade e a qualidade contínua do software desenvolvido. é abordada por meio de seis funcionalidades-chave, como ilustra a `Fig. 1`.
