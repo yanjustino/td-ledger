@@ -51,7 +51,7 @@ Allows the categorization of Technical Debt based on specific criteria, facilita
 - [Product quality model - ISO/IEC 25010:2011](https://www.iso.org/obp/ui/#iso:std:iso-iec:25010:ed-1:v1:en) (categorizes product quality properties)
 
 > [!important]\
-> Classification models can be combined to obtain different perspectives on a TD. For example, the
+> Classification models can be combined to obtain different perspectives on a TD. 
 
 ### 4. Prioritize
 >Establishment of priorities
