@@ -1,6 +1,6 @@
 # Technical Debt Ledger (TDL)
 > [!important]\
-> Authors: **MSc. Yan Justino**  
+> Authors: [MSc. Yan Justino](https://github.com/yanjustino)   
 > Version: [1.0.0-beta]() . [03/2023]()  
 > Language: [pt-br](README.ptbr.md) . **en-us**
 
@@ -8,10 +8,12 @@ Technical Debt (TD) refers to the technical commitments made during software dev
 
 TDL is a framework dedicated to the effective management of Technical Debt in software development, arising from quick decisions at the expense of more robust solutions. TDL relies on two main pillars:
 
-- #### Self-Admitted Technical Debt (SATD)
+#### Self-Admitted Technical Debt (SATD)
+> [!important]\
 > Proactively recognize the existence of TD during development and document it for future corrective actions.
 
-- #### Technical Debt Management (TDM)
+#### Technical Debt Management (TDM)
+> [!important]\
 > Use a structured approach to manage, monitor, and reduce TD throughout the project lifecycle.
 
 ## Framework Functionalities
