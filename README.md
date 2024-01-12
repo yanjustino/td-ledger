@@ -68,7 +68,7 @@ This step aids in prioritizing identified debts, considering factors such as pro
 In this step, the framework aims to facilitate the creation of strategies and plans to address and rectify Technical Debt, promoting the long-term health of the software. One of the strategies recommended by [Steve McConnell](https://www.construx.com/uploadedfiles/resources/whitepapers/Managing%20Technical%20Debt.pdf) in his book _Managing Technical Debt_ is:
 
 > [!note]\
-> Keep the debt list as part of a Scrum product backlog. Each debt is treated as a "story," and the estimated effort and schedule to pay each debt are estimated in the same way as other stories are estimated in Scrum.
+> **Maintain the debt list as part of a Scrum product backlog**. Each debt is treated as a Scrum “story,” and the estimated effort and schedule to pay off each debt is estimated the same way other stories are estimated in Scrum. 
 
 ## TDL Implementation Model
 `COMING SOON`
