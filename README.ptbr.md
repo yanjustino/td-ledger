@@ -1,8 +1,8 @@
 # Technical Debt Ledger (TDL)
 > [!important]\
-> authors..: [**MSc. Yan Justino**](https://github.com/yanjustino)  
-> version..: [1.0.0-beta]() . [03/2023]()  
-> Language.: **pt-br** . [en-us](README.md)
+> `autores..:` [MSc. Yan Justino](https://github.com/yanjustino)  
+> `versão...:` [1.0.0-beta]() - [03/2023]()  
+> `línguas..:` pt-br . [en-us](README.md)
 
 A Dívida Técnica (DT) refere-se aos compromissos técnicos assumidos durante o desenvolvimento de software, quando uma solução rápida é escolhida em detrimento de uma abordagem mais sólida. Assim como uma dívida financeira, a Dívida Técnica precisa ser reconhecida e gerenciada para garantir a sustentabilidade e qualidade contínua do software.
 
