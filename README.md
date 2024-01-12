@@ -17,7 +17,7 @@ O TDL é um framework dedicado ao gerenciamento eficaz de Dívida Técnica no de
   - Utilizar uma abordagem estruturada para gerenciar, monitorar e reduzir a DT ao longo do ciclo de vida do projeto.
 
 ## Funcionalidades do Framework
-TDL proporciona uma abordagem abrangente para lidar com a DT, promovendo a transparência, a responsabilidade e a qualidade contínua do software desenvolvido. é abordada por meio de seis funcionalidades-chave:
+TDL proporciona uma abordagem abrangente para lidar com a DT, promovendo a transparência, a responsabilidade e a qualidade contínua do software desenvolvido. é abordada por meio de seis funcionalidades-chave, como ilustra a `Fig. 1`.
 
 <p align="center">
   <img width="600" alt="image" src="https://github.com/yanjustino/td-ledger/assets/357114/c0003743-b722-4d10-a4e4-4075f9904cfb">
@@ -25,6 +25,7 @@ TDL proporciona uma abordagem abrangente para lidar com a DT, promovendo a trans
   <small>Fig. 1 - visão geral dos pilares e funcionalidades do framework</small>
 </p>
 
+A seguir detalharemos os aspectos de cata funcionalidade do framework TDL.
 
 ### 1. Reconhecer
 **Identificação proativa de áreas que requerem atenção técnica**\
@@ -49,15 +50,22 @@ Permite a categorização da Dívida Técnica com base em critérios específico
 - [Product quality model - ISO/IEC 25010:2011](https://www.iso.org/obp/ui/#iso:std:iso-iec:25010:ed-1:v1:en) (categoriza propriedades de qualidade do produto)
 
 > [!Note]\
-> Os modelos de classificação podem ser utilizados de forma combinada afim de se obter diferentes perpectivas sobre uma DT.
+> Os modelos de classificação podem ser combinados afim de se obter diferentes perpectivas sobre uma DT. Por exemplo, o 
 
 ### 4. Priorizar
 **Estabelecimento de prioridades**
-Essa etapa ajuda na priorização das dívidas identificadas, considerando fatores como impacto no projeto, urgência e complexidade.
+Essa etapa ajuda na priorização das dívidas identificadas, considerando fatores como impacto no projeto, urgência e complexidade. Para essa finalidade, podem ser adotadas abordagens como:
+
+- [Matriz GUT (Gravidade, Urgência e Tendência)](https://scopi.com.br/blog/matriz-gut) (priorização das demandas)
+- [T-Shirt sizing](https://asana.com/pt/resources/t-shirt-sizing) (estimativas de projetos)
+
+### 5. Quitar
+**Desenvolvimento de estratégias para abordar e corrigir a Dívida Técnica**
+Nessa etapa procura-se facilitar a criação de estratégias e planos para abordar e corrigir a Dívida Técnica, promovendo a saúde a longo prazo do software. Uma das estratégias recomendadas por [Steve McConnell](https://www.construx.com/uploadedfiles/resources/whitepapers/Managing%20Technical%20Debt.pdf) em seu livro _Managing Technical Debt_ é:
+
+>Mantenha a lista de dívidas como parte de um backlog de produto Scrum. Cada dívida é tratada como
+>uma “história”, e o esforço estimado e o cronograma para quitar cada dívida são estimados da mesma forma que outras histórias são estimadas no Scrum
 
 
-### 6. Pagar a Dívida
-
-Facilita a criação de estratégias e planos para abordar e corrigir a Dívida Técnica, promovendo a saúde a longo prazo do software.
-
-
+## Modelo de implementação de TDL
+`EM BREVE`
