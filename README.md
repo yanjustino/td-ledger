@@ -1,8 +1,7 @@
 # Technical Debt Ledger (TDL)
-> [!important]\
-> Authors: [MSc. Yan Justino](https://github.com/yanjustino)   
-> Version: [1.0.0-beta]() . [03/2023]()  
-> Language: [pt-br](README.ptbr.md) . **en-us**
+> `authors.:` [MSc. Yan Justino](https://github.com/yanjustino)   
+> `version.:` [1.0.0-beta]() . [03/2023]()  
+> `language:` [pt-br](README.ptbr.md) . en-us
 
 Technical Debt (TD) refers to the technical commitments made during software development when a quick solution is chosen over a more robust approach. Similar to financial debt, Technical Debt needs to be recognized and managed to ensure the sustainability and continuous quality of the software.
 
