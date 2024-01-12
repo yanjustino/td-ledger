@@ -1,72 +1,70 @@
-
-
+```markdown
 # Technical Debt Ledger (TDL)
 > [!important]\
-> authors..: **MSc. Yan Justino**  
-> version..: [1.0.0-beta]() . [03/2023]()  
-> Language.: [pt-br](README.md) . [en-us](README.md)
+> Authors: **MSc. Yan Justino**  
+> Version: [1.0.0-beta]() . [03/2023]()  
+> Language: [pt-br](README.md) . [en-us](README.md)
 
-A Dívida Técnica (DT) refere-se aos compromissos técnicos assumidos durante o desenvolvimento de software, quando uma solução rápida é escolhida em detrimento de uma abordagem mais sólida. Assim como uma dívida financeira, a Dívida Técnica precisa ser reconhecida e gerenciada para garantir a sustentabilidade e qualidade contínua do software.
+Technical Debt (TD) refers to the technical commitments made during software development when a quick solution is chosen over a more robust approach. Similar to financial debt, Technical Debt needs to be recognized and managed to ensure the sustainability and continuous quality of the software.
 
-O TDL é um framework dedicado ao gerenciamento eficaz de Dívida Técnica no desenvolvimento de software. Essa dívida, resultante de decisões rápidas em detrimento de soluções mais robustas. TDL se apoia em dois pilares principais:   
+TDL is a framework dedicated to the effective management of Technical Debt in software development, arising from quick decisions at the expense of more robust solutions. TDL relies on two main pillars:
 
 - #### Self-Admitted Technical Debt (SATD)
-> Reconhecer proativamente a existência de DT durante o desenvolvimento e a documentar para futuras ações corretivas.
+> Proactively recognize the existence of TD during development and document it for future corrective actions.
 
 - #### Technical Debt Management (TDM)
-> Utilizar uma abordagem estruturada para gerenciar, monitorar e reduzir a DT ao longo do ciclo de vida do projeto.
+> Use a structured approach to manage, monitor, and reduce TD throughout the project lifecycle.
 
-## Funcionalidades do Framework
-TDL proporciona uma abordagem abrangente para lidar com a DT, promovendo a transparência, a responsabilidade e a qualidade contínua do software desenvolvido. é abordada por meio de seis funcionalidades-chave, como ilustra a `Fig. 1`.
+## Framework Functionalities
+TDL provides a comprehensive approach to addressing TD, promoting transparency, accountability, and continuous quality of developed software. It is addressed through six key functionalities, as illustrated in `Fig. 1`.
 
 <p align="center">
   <br/>
   <img width="600" alt="image" src="https://github.com/yanjustino/td-ledger/assets/357114/e5bd7ace-9580-49c2-acbb-c58c558e1c4a">
   <br/>
-  <small>Fig. 1 - visão geral dos pilares e funcionalidades do framework</small>
+  <small>Fig. 1 - Overview of the framework's pillars and functionalities</small>
 </p>
 
-A seguir detalharemos os aspectos de cata funcionalidade do framework TDL.
+The following details each functionality of the TDL framework.
 
-### 1. Reconhecer
-**Identificação proativa de áreas que requerem atenção técnica**\
-Nessa etapa a equipe é estimulada a reconhecer proativamente a presença de dívida técnica em seu código, identificando áreas que podem exigir atenção adicional.
-Para isso, podem ser adotadas as seguintes práticas: 
-- [Revisão de código](https://en.wikipedia.org/wiki/Code_review),
-- [Técnicas de análise arquitetural](https://www.sciencedirect.com/topics/computer-science/architecture-analysis),
-- [Ferramentas de análise estática](https://en.wikipedia.org/wiki/Static_program_analysis)
+### 1. Recognize
+**Proactive identification of areas requiring technical attention**\
+In this step, the team is encouraged to proactively recognize the presence of Technical Debt in their code by identifying areas that may require additional attention. Practices may include:
 
-### 2. Registrar
-**Documentação para um gerenciamento eficaz**\
-Nessa etápa deve-se registrar todas as instâncias de dívida técnica, documentando detalhes importantes para um gerenciamento eficaz. Pode-se adotar qualquer ferramenta que se apresente mais produtiva para equipe realizar o registro de DT's. Aconselha-se o uso de ferramentas colaborativas e que facilitem o engajamento. 
+- [Code review](https://en.wikipedia.org/wiki/Code_review),
+- [Architectural analysis techniques](https://www.sciencedirect.com/topics/computer-science/architecture-analysis),
+- [Static analysis tools](https://en.wikipedia.org/wiki/Static_program_analysis)
+
+### 2. Record
+**Documentation for effective management**\
+In this step, all instances of Technical Debt should be documented for effective management. Any tool that proves most productive for the team to record TDs can be adopted. The use of collaborative tools that facilitate engagement is advised.
 
 > [!Warning]\
-> É importante que a DT seja registrada o mais rápido possível após sua identificação. Tardar esse registro, pode ocasionar sub-notificações.
+> It is crucial to register TD as soon as possible after its identification. Delaying this registration may lead to underreporting.
 
-### 3. Classificar
-**Categorização com base em critérios específicos**\
-Permite a categorização da Dívida Técnica com base em critérios específicos, facilitando a compreensão das áreas de maior impacto e urgência. Para isso, podem ser adotados modelos de classificação, como por exemplo:
+### 3. Classify
+**Categorization based on specific criteria**\
+Allows the categorization of Technical Debt based on specific criteria, facilitating an understanding of areas with higher impact and urgency. Models of classification, such as:
 
-- [Technical Debt Quadrant - Martin Fowler](https://martinfowler.com/bliki/TechnicalDebtQuadrant.html) (categoriza o comportamento de endividamento da equipe)
-- [Product quality model - ISO/IEC 25010:2011](https://www.iso.org/obp/ui/#iso:std:iso-iec:25010:ed-1:v1:en) (categoriza propriedades de qualidade do produto)
+- [Technical Debt Quadrant - Martin Fowler](https://martinfowler.com/bliki/TechnicalDebtQuadrant.html) (categorizes the team's debt behavior)
+- [Product quality model - ISO/IEC 25010:2011](https://www.iso.org/obp/ui/#iso:std:iso-iec:25010:ed-1:v1:en) (categorizes product quality properties)
 
 > [!Note]\
-> Os modelos de classificação podem ser combinados afim de se obter diferentes perpectivas sobre uma DT. Por exemplo, o 
+> Classification models can be combined to obtain different perspectives on a TD. For example, the
 
-### 4. Priorizar
-**Estabelecimento de prioridades**
-Essa etapa ajuda na priorização das dívidas identificadas, considerando fatores como impacto no projeto, urgência e complexidade. Para essa finalidade, podem ser adotadas abordagens como:
+### 4. Prioritize
+**Establishment of priorities**\
+This step aids in prioritizing identified debts, considering factors such as project impact, urgency, and complexity. Approaches may include:
 
-- [Matriz GUT (Gravidade, Urgência e Tendência)](https://scopi.com.br/blog/matriz-gut) (priorização das demandas)
-- [T-Shirt sizing](https://asana.com/pt/resources/t-shirt-sizing) (estimativas de projetos)
+- [GUT Matrix (Gravity, Urgency, and Tendency)](https://scopi.com.br/blog/matriz-gut) (prioritizes demands)
+- [T-Shirt sizing](https://asana.com/pt/resources/t-shirt-sizing) (project estimates)
 
-### 5. Quitar
-**Desenvolvimento de estratégias para abordar e corrigir a Dívida Técnica**
-Nessa etapa procura-se facilitar a criação de estratégias e planos para abordar e corrigir a Dívida Técnica, promovendo a saúde a longo prazo do software. Uma das estratégias recomendadas por [Steve McConnell](https://www.construx.com/uploadedfiles/resources/whitepapers/Managing%20Technical%20Debt.pdf) em seu livro _Managing Technical Debt_ é:
+### 5. Pay
+**Development of strategies to address and rectify Technical Debt**\
+In this step, the framework aims to facilitate the creation of strategies and plans to address and rectify Technical Debt, promoting the long-term health of the software. One of the strategies recommended by [Steve McConnell](https://www.construx.com/uploadedfiles/resources/whitepapers/Managing%20Technical%20Debt.pdf) in his book _Managing Technical Debt_ is:
 
->Mantenha a lista de dívidas como parte de um backlog de produto Scrum. Cada dívida é tratada como
->uma “história”, e o esforço estimado e o cronograma para quitar cada dívida são estimados da mesma forma que outras histórias são estimadas no Scrum
+> Keep the debt list as part of a Scrum product backlog. Each debt is treated as a "story," and the estimated effort and schedule to pay each debt are estimated in the same way as other stories are estimated in Scrum.
 
-
-## Modelo de implementação de TDL
-`EM BREVE`
+## TDL Implementation Model
+`COMING SOON`
+```
