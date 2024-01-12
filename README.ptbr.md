@@ -51,7 +51,7 @@ Permite a categorização da Dívida Técnica com base em critérios específico
 - [Product quality model - ISO/IEC 25010:2011](https://www.iso.org/obp/ui/#iso:std:iso-iec:25010:ed-1:v1:en) (categoriza propriedades de qualidade do produto)
 
 > [!important]\
-> Os modelos de classificação podem ser combinados afim de se obter diferentes perpectivas sobre uma DT. Por exemplo, o 
+> Os modelos de classificação podem ser combinados afim de se obter diferentes perpectivas sobre uma DT.
 
 ### 4. Priorizar
 > Estabelecimento de prioridades
