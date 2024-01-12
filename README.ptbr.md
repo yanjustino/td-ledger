@@ -28,7 +28,8 @@ TDL proporciona uma abordagem abrangente para lidar com a DT, promovendo a trans
 A seguir detalharemos os aspectos de cata funcionalidade do framework TDL.
 
 ### 1. Reconhecer
-**Identificação proativa de áreas que requerem atenção técnica**\
+> Identificação proativa de áreas que requerem atenção técnica
+
 Nessa etapa a equipe é estimulada a reconhecer proativamente a presença de dívida técnica em seu código, identificando áreas que podem exigir atenção adicional.
 Para isso, podem ser adotadas as seguintes práticas: 
 - [Revisão de código](https://en.wikipedia.org/wiki/Code_review),
@@ -36,33 +37,38 @@ Para isso, podem ser adotadas as seguintes práticas:
 - [Ferramentas de análise estática](https://en.wikipedia.org/wiki/Static_program_analysis)
 
 ### 2. Registrar
-**Documentação para um gerenciamento eficaz**\
+> Documentação para um gerenciamento eficaz
+
 Nessa etápa deve-se registrar todas as instâncias de dívida técnica, documentando detalhes importantes para um gerenciamento eficaz. Pode-se adotar qualquer ferramenta que se apresente mais produtiva para equipe realizar o registro de DT's. Aconselha-se o uso de ferramentas colaborativas e que facilitem o engajamento. 
 
 > [!Warning]\
 > É importante que a DT seja registrada o mais rápido possível após sua identificação. Tardar esse registro, pode ocasionar sub-notificações.
 
 ### 3. Classificar
-**Categorização com base em critérios específicos**\
+> Categorização com base em critérios específicos
+
 Permite a categorização da Dívida Técnica com base em critérios específicos, facilitando a compreensão das áreas de maior impacto e urgência. Para isso, podem ser adotados modelos de classificação, como por exemplo:
 
 - [Technical Debt Quadrant - Martin Fowler](https://martinfowler.com/bliki/TechnicalDebtQuadrant.html) (categoriza o comportamento de endividamento da equipe)
 - [Product quality model - ISO/IEC 25010:2011](https://www.iso.org/obp/ui/#iso:std:iso-iec:25010:ed-1:v1:en) (categoriza propriedades de qualidade do produto)
 
-> [!Note]\
+> [!important]\
 > Os modelos de classificação podem ser combinados afim de se obter diferentes perpectivas sobre uma DT. Por exemplo, o 
 
 ### 4. Priorizar
-**Estabelecimento de prioridades**
+> Estabelecimento de prioridades
+
 Essa etapa ajuda na priorização das dívidas identificadas, considerando fatores como impacto no projeto, urgência e complexidade. Para essa finalidade, podem ser adotadas abordagens como:
 
 - [Matriz GUT (Gravidade, Urgência e Tendência)](https://scopi.com.br/blog/matriz-gut) (priorização das demandas)
 - [T-Shirt sizing](https://asana.com/pt/resources/t-shirt-sizing) (estimativas de projetos)
 
 ### 5. Quitar
-**Desenvolvimento de estratégias para abordar e corrigir a Dívida Técnica**
+>Desenvolvimento de estratégias para abordar e corrigir a Dívida Técnica
+
 Nessa etapa procura-se facilitar a criação de estratégias e planos para abordar e corrigir a Dívida Técnica, promovendo a saúde a longo prazo do software. Uma das estratégias recomendadas por [Steve McConnell](https://www.construx.com/uploadedfiles/resources/whitepapers/Managing%20Technical%20Debt.pdf) em seu livro _Managing Technical Debt_ é:
 
+> [!note]\
 >Mantenha a lista de dívidas como parte de um backlog de produto Scrum. Cada dívida é tratada como
 >uma “história”, e o esforço estimado e o cronograma para quitar cada dívida são estimados da mesma forma que outras histórias são estimadas no Scrum
 
