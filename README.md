@@ -21,6 +21,7 @@ TDL provides a comprehensive approach to addressing TD, promoting transparency, 
   <img width="600" alt="image" src="https://github.com/yanjustino/td-ledger/assets/357114/e5bd7ace-9580-49c2-acbb-c58c558e1c4a">
   <br/>
   <small>Fig. 1 - Overview of the framework's pillars and functionalities</small>
+  <small>Own source</small>
 </p>
 
 The following details each functionality of the TDL framework.
