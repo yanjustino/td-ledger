@@ -1,5 +1,4 @@
 # Technical Debt Ledger (TDL)
-> [!important]\
 > `autores..:` [MSc. Yan Justino](https://github.com/yanjustino)  
 > `versão...:` [1.0.0-beta]() - [03/2023]()  
 > `línguas..:` pt-br . [en-us](README.md)
