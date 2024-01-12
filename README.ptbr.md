@@ -23,15 +23,14 @@ A **Dívida Técnica (DT)** refere-se aos compromissos técnicos assumidos duran
   <small>Fonte própria</small>
 </p>
 
-A seguir detalharemos os aspectos de cada uma dessas funcionalidade do framework **TDL**.
+Na seção a seguir, serão detalhados as características de cada uma dessas funcionalidade do **TDL**, bem como possíveis atividades que podem ser a elas relacionadas.
 
 ## Funcionalidades do Framework
 
 ### 1. Reconhecer
 > Identificação proativa de áreas que requerem atenção técnica
 
-Nessa etapa a equipe é estimulada a reconhecer proativamente a presença de dívida técnica em seu código, identificando áreas que podem exigir atenção adicional.
-Para isso, podem ser adotadas as seguintes práticas: 
+Nessa etapa a equipe é estimulada a reconhecer proativamente a presença de dívida técnica em seu código, identificando áreas que podem exigir atenção adicional. Para isso, podem ser adotadas as seguintes práticas: 
 - [Revisão de código](https://en.wikipedia.org/wiki/Code_review),
 - [Técnicas de análise arquitetural](https://www.sciencedirect.com/topics/computer-science/architecture-analysis),
 - [Ferramentas de análise estática](https://en.wikipedia.org/wiki/Static_program_analysis)
@@ -39,10 +38,10 @@ Para isso, podem ser adotadas as seguintes práticas:
 ### 2. Registrar
 > Documentação para um gerenciamento eficaz
 
-Nessa etápa deve-se registrar todas as instâncias de dívida técnica, documentando detalhes importantes para um gerenciamento eficaz. Pode-se adotar qualquer ferramenta que se apresente mais produtiva para equipe realizar o registro de DT's. Aconselha-se o uso de ferramentas colaborativas e que facilitem o engajamento. 
+Nessa etapa deve-se registrar todas as instâncias de dívida técnica, documentando detalhes importantes para um gerenciamento eficaz. Pode-se adotar qualquer ferramenta que se apresente mais produtiva para equipe realizar o registro de **DT's**. Aconselha-se o uso de ferramentas colaborativas e que facilitem o engajamento. 
 
 > [!Warning]\
-> É importante que a DT seja registrada o mais rápido possível após sua identificação. Tardar esse registro, pode ocasionar sub-notificações.
+> É importante que a **DT** seja registrada o mais rápido possível após sua identificação. Tardar esse registro, pode ocasionar sub-notificações. Nesse sentido, o registro da **DT** sem sua imediata classificação e priorização pode ser admitido, dada a importância da documentação da **DT**.
 
 ### 3. Classificar
 > Categorização com base em critérios específicos
