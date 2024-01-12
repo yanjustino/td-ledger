@@ -17,7 +17,7 @@ O TDL é um framework dedicado ao gerenciamento eficaz de Dívida Técnica no de
 TDL proporciona uma abordagem abrangente para lidar com a Dívida Técnica, promovendo a transparência, a responsabilidade e a qualidade contínua do software desenvolvido. é abordada por meio de seis funcionalidades-chave:
 
 <p align="center">
-<img width="662" alt="image" src="https://github.com/yanjustino/td-ledger/assets/357114/7cd8e6f8-45da-44ef-96c0-100caf49cc77">
+  <img width="600" alt="image" src="https://github.com/yanjustino/td-ledger/assets/357114/c0003743-b722-4d10-a4e4-4075f9904cfb">
 </p>
 
 
