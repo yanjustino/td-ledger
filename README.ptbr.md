@@ -58,8 +58,8 @@ Permite a categorização da Dívida Técnica com base em critérios específico
 
 Essa etapa ajuda na priorização das dívidas identificadas, considerando fatores como impacto no projeto, urgência e complexidade. Para essa finalidade, podem ser adotadas abordagens como:
 
-- [Matriz GUT (Gravidade, Urgência e Tendência)](https://scopi.com.br/blog/matriz-gut) (priorização das demandas)
-- [T-Shirt sizing](https://asana.com/pt/resources/t-shirt-sizing) (estimativas de projetos)
+- [Matriz GUT (Gravidade, Urgência e Tendência)](https://www.sydle.com/blog/gut-priority-matrix-62d05b64675a2377260936ae) (priorização das demandas)
+- [T-Shirt sizing](https://asana.com/resources/t-shirt-sizing) (estimativas de projetos)
 
 ### 5. Quitar
 >Desenvolvimento de estratégias para abordar e corrigir a Dívida Técnica
@@ -76,5 +76,12 @@ Nessa etapa procura-se facilitar a criação de estratégias e planos para abord
 
 ## Referências
 - [**Self-Admitted Technical Debt - SATD**](https://ieeexplore.ieee.org/search/searchresult.jsp?matchBoolean=true&queryText=%22Index%20Terms%22:Self-Admitted%20Technical%20Debt&newsearch=true)
-  - SATD is when developers are aware that the current implementation is not optimal and leave comments in the source code or elsewhere to describe the presence of technical debt.
-- 
+  >SATD is when developers are aware that the current implementation is not optimal and leave comments in the source code or elsewhere to describe the presence of technical debt.
+- [**Technical Debt Quadrant - Martin Fowler**](https://martinfowler.com/bliki/TechnicalDebtQuadrant.html)
+  >Approach to dividing debt into prudent/prudent and deliberate/inadvertent that implies a quadrant.
+- [**Product quality model - ISO/IEC 25010:2011**](https://www.iso.org/obp/ui/#iso:std:iso-iec:25010:ed-1:v1:en)
+  >The product quality model categorizes product quality properties into eight characteristics (functional suitability, reliability, performance efficiency, usability, security, compatibility, maintainability and portability).
+- [**Matriz GUT (Gravidade, Urgência e Tendência)**](https://www.sydle.com/blog/gut-priority-matrix-62d05b64675a2377260936ae)
+  > The GUT priority matrix is a system for ranking the importance of issues and tasks to streamline company operations.
+- [**T-Shirt sizing**](https://asana.com/resources/t-shirt-sizing) (estimativas de projetos)
+  >T-shirt sizing is a project estimation and capacity planning tool that helps you track how much time or effort an initiative will take. 
